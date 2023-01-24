@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "RougeScript-Regular";
+    src: url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap'), format('truetype');
+}
+
+.container-text {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
