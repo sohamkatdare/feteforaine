@@ -11,3 +11,7 @@ AJS.anime({
   },
   // delay: function(el, i) { return i * 250 },
 })
+
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
